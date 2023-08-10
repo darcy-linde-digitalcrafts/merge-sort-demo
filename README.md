@@ -7,11 +7,14 @@ halves, sorting each half, and then merging the sorted halves back together.
 ## How it works
 
 1. **Divide**
-   The unsorted array is divided into two halves repeatedly until the subarrays become small enough to be considered sorted (i.e., when they contain only one element).
+   The unsorted array is divided into two halves repeatedly until the subarrays
+   become small enough to be considered sorted (i.e., when they contain only one
+   element).
 2. **Conquer**
    Each small subarray is considered sorted as it only contains one element.
 3. **Merge**
-   The sorted subarrays are then merged back together into larger sorted subarrays until the entire array is sorted.
+   The sorted subarrays are then merged back together into larger sorted
+   subarrays until the entire array is sorted.
 
 ## Properties
 
